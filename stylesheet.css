@@ -81,7 +81,9 @@
 }
 
 
-
+.skew-paragraph{
+    display: inline-block;
+}
 .skew-paragraph:hover{
     transform: skewY(15deg);
 }
