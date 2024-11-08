@@ -32,10 +32,10 @@
 }
 
 
-.transform-image{
+.transition-image{
     opacity: 1;
 }
-.transform-image:hover{
+.transition-image:hover{
     opacity: 0.5;
     transition: all;
     transition-duration: 0.8s;
@@ -50,6 +50,12 @@
 .scale-div:hover{
     transform: scale(1.5);
 }
+
+
+.scale-image:hover{
+    transform: scale(0.75);
+}
+
 
 
 .translate-button{
@@ -73,6 +79,8 @@
 .skew-heading:hover{
     transform: skewX(20deg);
 }
+
+
 
 .skew-paragraph:hover{
     transform: skewY(15deg);
